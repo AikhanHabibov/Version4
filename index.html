@@ -9,13 +9,8 @@
     </style>
     <meta name="viewport" content="width=device-width" />
     <title>Flower shop</title>
-    <link href="./css/hero.css" rel="stylesheet" type="text/css" />
     <link href="./css/style.css" rel="stylesheet" type="text/css" />
-    <link href="./css/li.css" rel="stylesheet" type="text/css" />
-    <link href="./css/title.css" rel="stylesheet" type="text/css" />
-   <link href="./css/bouquets.css" rel="stylesheet" type="text/css" />
-    <link href="./css/zitat.css" rel="stylesheet" type="text/css" />
-    <link rel="preconnect" href="https:/fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
@@ -25,7 +20,7 @@
 
   <body>
     <header class="header section">
-      <img src="name.png" />
+      <img src="name.png" alt="" />
       <nav>
         <ul class="menu">
           <li>
@@ -61,26 +56,26 @@
         </p>
         <a class="button" href="">Order a bouquet</a>
       </div>
-      <img class="buket" src="buket.jpg" />
+      <img class="buket" src="buket.jpg" alt="" />
     </section>
     <section class="section">
       <h2 class="zagolovok">Why&nbsp;choose&nbsp;FloverLover?&nbsp;</h2>
       <ul class="spisok">
         <li class="li li1">
-          <img src="Circle1.png" />
+          <img src="Circle1.png" alt="" />
           <p class="paragraph">
             You get fresh and quality flowers that last long and smell great.
           </p>
         </li>
         <li class="li li2">
-          <img src="Circle2.png" />
+          <img src="Circle2.png" alt="" />
           <p class="paragraph">
             You can choose from a variety of flowers and arrangements for any
             taste and budget, and also add a personal message to your order.
           </p>
         </li>
         <li class="li li3">
-          <img src="Circle3.png" />
+          <img src="Circle3.png" alt="" />
           <p class="paragraph">
             You can be sure that you are giving joy and happiness to your loved
             ones, friends and colleagues, because flowers are the best way to
@@ -88,7 +83,7 @@
           </p>
         </li>
         <li class="li li2">
-          <img src="Circle4.png" />
+          <img src="Circle4.png" alt="" />
           <p class="paragraph">
             You can count on fast and reliable delivery of flowers across
             Ukraine, as well as the possibility to track the status of your
@@ -96,7 +91,7 @@
           </p>
         </li>
         <li class="li li1">
-          <img src="Circle5.png" />
+          <img src="Circle5.png" alt="" />
           <p class="paragraph">
             You can use our loyalty program and get discounts and gifts for
             every order.
@@ -104,25 +99,98 @@
         </li>
       </ul>
     </section>
-    <section class="zitat" style="background-image: url(zitatepicture.png);">
-      <h1 class="textsavtorom">“Flowers always make people better, happier and more helpful; they are sunshine, food and medicine for the soul.” </h1>
+    <section class="zitat" style="background-image: url(zitatepicture.png)">
+      <h1 class="textsavtorom">
+        “Flowers always make people better, happier and more helpful; they are
+        sunshine, food and medicine for the soul.”
+      </h1>
       <h4 class="autor">Luther Burbank</h4>
     </section>
     <section>
-      <h1 class="bouquets"> Some of our bouquets</h1>
-      <h5>Each order is evaluated individually, because the price is formed on the basis of the colors chosen for the bouquet.</h5>
-    
+      <h1 class="bouquets">Some of our bouquets</h1>
+      <h5>
+        Each order is evaluated individually, because the price is formed on the
+        basis of the colors chosen for the bouquet.
+      </h5>
+
       <div class="bouquets-wrapper">
-        <button type="button" class="imgbutton"> <img src="left.png" alt="buttonpng" /> </button>
+        <button type="button" class="imgbutton">
+          <img src="left.png" alt="buttonpng" />
+        </button>
         <ul class="bouquets-list">
-          <li class="bouquets-list-item"><img class="bouquets-list-item-text" src="Sun.png"><p class="pi pi3" >Sunnyday </p><p class="pi2 pi3">From 899$</p></img></li>
-          <li class="bouquets-list-item-active"><img class="bouquets-list-item-text" src="Img choosed (1).png"><p class="pi pi4">Orchid&nbsp;daylight</p><p class="pi2 pi6"> From&nbsp;1299$</p></img></li>
-          <li class="bouquets-list-item"><img class="bouquets-list-item-text" src="Img.png"><p class="pi pi5">Tropical&nbsp;paradise</p> <p class="pi2 pi7">From&nbsp;9999$</p ></img></li>
+          <li class="bouquets-list-item">
+            <img class="bouquets-list-item-text" src="Sun.png" />
+            <p class="pi pi3">Sunnyday</p>
+            <p class="pi2 pi3">From 899$</p>
+          </li>
+          <li class="bouquets-list-item-active">
+            <img class="bouquets-list-item-text" src="Img choosed (1).png" />
+            <p class="pi pi4">Orchid&nbsp;daylight</p>
+            <p class="pi2 pi6">From&nbsp;1299$</p>
+          </li>
+          <li class="bouquets-list-item">
+            <img class="bouquets-list-item-text" src="Img.png" />
+            <p class="pi pi5">Tropical&nbsp;paradise</p>
+            <p class="pi2 pi7">From&nbsp;9999$</p>
+          </li>
         </ul>
-   
-        <button type="button"><img src="right.png" alt="buttonpng"/></button>
+
+        <button type="button"><img src="right.png" alt="buttonpng" /></button>
       </div>
     </section>
+    <section class="order-section">
+      <h1 class="Order">Order a bouquet</h1>
+
+      <form id="myForm" class="form">
+        <label for="name">Name</label>
+        <input
+          class="form-field"
+          type="text"
+          name="name"
+          id="name"
+          placeholder="Enter youre name"
+        />
+        <label for="text">Phone Number</label>
+        <input
+          class="form-field"
+          type="text"
+          name="phone"
+          id="phone"
+          placeholder="+380XXXXXXXXX"
+        />
+        <label for="text">Number of bouquets</label>
+        <input
+          class="form-field"
+          type="text"
+          name="amount"
+          id="amount"
+          placeholder="Enter the amount"
+        />
+        <label for="text">Enter the aproximate price</label>
+        <input
+          class="form-field"
+          type="text"
+          name="cost"
+          id="cost"
+          placeholder="Enter price"
+        />
+        <label for="text">Reason for buying a bouquet</label>
+        <input
+          class="form-field"
+          type="text"
+          name="reason"
+          id="reason"
+          placeholder="Enter the reason"
+        />
+        <label for="textarea">Enter youre comment</label>
+        <textarea
+          name="comment"
+          id="comment"
+          placeholder="Enter comment"
+          class="Comment form-field"
+        ></textarea>
+        <button type="button" class="js-button">Order</button>
+      </form>
     </section>
   </body>
 </html>

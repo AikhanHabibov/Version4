@@ -1,3 +1,10 @@
+@import url("./bouquets.css");
+@import url("./hero.css");
+@import url("./li.css");
+@import url("./title.css");
+@import url("./zitat.css");
+@import url("./form.css");
+
 .header {
   display: flex;
   flex-direction: row;
