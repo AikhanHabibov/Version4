@@ -1,0 +1,166 @@
+.imgbutton {
+  /* material-symbols:chevron-left-rounded */
+
+  width: 85px;
+  height: 85px;
+  left: 0px;
+  top: 368px;
+}
+.bouquets {
+  /* Some of our bouquets */
+  justify-content: center;
+
+  width: 402px;
+  height: 56px;
+  left: calc(50% - 402px / 2);
+  top: 0px;
+
+  /* Accent/Sub_accent */
+  font-family: "Caveat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 100%;
+  margin-left: 600px;
+  margin-top: 80px;
+
+  /* identical to box height, or 56px */
+
+  /* Orange/3 */
+  color: #fc640c;
+}
+
+h5 {
+  /* Each order is evaluated individually, because the price is formed on the basis of the colors chosen for the bouquet. */
+  margin-left: 300px;
+  width: 1062px;
+  height: 27px;
+  left: 109px;
+  top: 72px;
+  justify-content: center;
+
+  /* Main/Main */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+  text-align: center;
+
+  /* Black */
+  color: #1f1f1f;
+}
+
+.bouquets-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  justify-content: center;
+  padding-left: 0;
+  column-gap: 24px;
+
+  align-items: center;
+}
+
+.bouquets-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  column-gap: 24px;
+}
+
+.bouquets-list-item {
+  width: 302px;
+  height: 308px;
+  left: calc(50% - 302px / 2);
+  top: calc(50% - 308px / 2);
+
+  border-radius: 32px;
+
+  margin-left: 24px;
+}
+
+.bouquets-list-item-active {
+  /* Img choosed */
+
+  width: 410px;
+  height: 420px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+
+  margin-left: 24px;
+}
+
+.bouquets-list-item-text {
+  text-align: center;
+}
+
+.pi {
+  /* Sunny day */
+
+  width: 86px;
+  height: 27px;
+
+  /* Bold/Main_bold */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 150%;
+  /* identical to box height, or 27px */
+
+  /* Orange/3 */
+  color: #fc640c;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.pi2 {
+  /* From 899 ₴ */
+  justify-content: center;
+  width: 84px;
+  height: 24px;
+
+  /* Main/Sub_main */
+  font-family: "Nunito Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  /* Black */
+  color: #1f1f1f;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.pi3 {
+  margin-left: 110px;
+}
+
+.pi4 {
+  margin-left: 145px;
+}
+
+.pi6 {
+  margin-left: 155px;
+}
+
+.pi5 {
+  margin-left: 85px;
+}
+.pi7 {
+  margin-left: 100px;
+}
